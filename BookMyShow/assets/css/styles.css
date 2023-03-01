@@ -1,0 +1,202 @@
+.recomended1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 20px;
+    margin-left: 123px;
+     margin-right: 123px; 
+}
+
+.recomended1 h3{
+    align-items: end; 
+    color: crimson; 
+    cursor: pointer; 
+    padding-top: 10px;
+}
+
+.recomended1 h2{
+    font-weight: bold;
+     color: rgb(51, 51, 51);
+}
+
+.movie-thumbnails{
+    display: flex;
+    flex-direction: row;
+   /*  margin: 10px; */
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.thumbnail img{
+    height: 75%;
+    display: flex;
+    border-radius: 20px;
+    width:auto;
+    /* margin: 20px; */
+
+}
+
+.thumbnail h4, a {
+    padding-left: 5px;
+}
+
+.event-thumbnail img{
+    height: 300px;
+    border-radius: 20px;
+    margin: 5px;
+    
+}
+
+.events-wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right:200px;
+    
+}
+
+.premiere-thumbnails{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 150px;
+}
+
+.premier-thumbnail-photo img{
+    width: 250px;
+}
+
+.premier{
+    height: 800px;
+    background-color: rgb(43, 49, 72);
+}
+
+.thumbnail a{
+    color: rgb(102, 102, 102);
+}
+
+.trending-searches{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.trending-searches p{
+    padding-right: 65px;
+    font-size: large;
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+
+.trending-searches div{
+    background-color:whitesmoke;
+}
+
+*{
+    font-family: Roberto, Arial, Helvetica, sans-serif;
+}
+
+.contact-box{
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 1750px;
+    font-size: large;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+    align-items: center;
+
+    background-color: rgb(49, 48, 53);
+    color: aliceblue;
+}
+
+
+body{
+    margin: 0px;
+}
+
+.contact-box button, .top-right-navbar button{
+    background-color: rgb(236, 94, 113);
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.customer-care{
+    background-color: rgb(49, 48, 53);
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-around;
+}
+
+
+
+.customer-care img{
+    width: 100px;
+}
+
+.customer-care p{
+    color: rgba(212, 212, 212, 0.329);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 48, 53);
+    padding-top: 10px;
+    padding-bottom: 100px;
+    margin-top:20px;
+
+}
+
+.current-trends{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.current-trends p,h1{
+    color: aliceblue;
+}
+
+.icon-bookmyshow{
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-media img{
+    width:50px;
+}
+
+.social-media div{
+    /* padding:0px; */
+    background-color: aliceblue;
+    margin-left: 5px;
+    border-radius: 25px;
+    width: auto;
+    height: 50px;
+}
+
+.footer p{
+    color: aliceblue;
+}
+
+.copyright{
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
